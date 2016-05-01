@@ -46,6 +46,10 @@ lines(datetime, subMetering1, type="l")
 lines(datetime, subMetering2, type="l", col="red")
 lines(datetime, subMetering3, type="l", col="blue")
 
+# Add a legend wich explains line colors
+
+legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=1, lwd=2.5, col=c("black", "red", "blue"))
+
 # Create a png file with given specs (480x480)
 
 dev.copy(png, file = "plot3.png", width=480, height=480)
