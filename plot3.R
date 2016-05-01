@@ -2,10 +2,10 @@
 # Date   : 01/05/2016
 
 # Assignment 1 
-# Plot 2
+# Plot 3
 
 # download an unzip 'household_power_consumption.txt' file
-# Under your rott dir in a folder called 'data' 
+# Under your root dir in a folder called 'data' 
 
 dataFile <- "./data/household_power_consumption.txt"
 
